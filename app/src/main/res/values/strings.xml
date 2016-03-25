@@ -5,4 +5,71 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+
+    <string name="btnSearch">Search</string>
+
+    <string name="action_racunala">Računala</string>
+    <string name="action_komponente">Komponente</string>
+    <string name="action_oprema">Oprema</string>
+    <string name="search_icon">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="login_icon">Login</string>
+
+    <string name="nav_item_main">Početna</string>
+    <string name="nav_item_kosarica">Košarica</string>
+    <string name="nav_item_katalog">Katalog</string>
+    <string name="nav_item_narudzbe">Narudžbe</string>
+    <string name="nav_item_search">Search</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_main</item>
+        <item>@string/nav_item_katalog</item>
+        <item>@string/nav_item_kosarica</item>
+        <item>@string/nav_item_narudzbe</item>
+        <item>@string/nav_item_search</item>
+    </string-array>
+
+    <string name="title_katalog">Katalog</string>
+    <string name="title_kosarica">Košarica</string>
+    <string name="title_narudzbe">Narudžbe</string>
+    <string name="title_search">Search</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="title_fragment_user_profile">User profile</string>
+
+
+    <string name="title_activity_registration">Register</string>
+    <string name="btnRegister">Register</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Click here to sign up now!</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Full name</string>
+    <string name="title_username">hint_username</string>
+    <string name="listitem_image">slika u retku</string>
+    <string name="title_activity_product_details">Product details</string>
+    <string name="title_activity_search">Search</string>
+
+
+    <string name="kategorijaRacunala">Racunala</string>
+    <string name="kategorijaGrafickeKartice">GrafickeKartice</string>
+    <string name="kategorijaKuciste">Kuciste</string>
+    <string name="kategorijaProcesor">Procesor</string>
+    <string name="kategorijaNapajanje">Napajanje</string>
+    <string name="kategorijaRAMmemorija">RAMmemorija</string>
+    <string name="kategorijaMaticnaPloca">MaticnaPloca</string>
+
+
+
 </resources>

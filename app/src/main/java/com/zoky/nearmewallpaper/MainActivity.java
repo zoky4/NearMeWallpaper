@@ -40,7 +40,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    Button btpic, btnup;
+    Button btnup;
     private Uri fileUri;
     String picturePath;
     Uri selectedImage;
@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity
     private String KEY_NAME = "name";
 
     public ImageView imageView;
-    //Creating a Request Queue
-    RequestQueue requestQueue = Volley.newRequestQueue(this);
+
+
 
 
 
@@ -278,6 +278,8 @@ public class MainActivity extends AppCompatActivity
             }
         };
 
+        //Creating a Request Queue
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
         //Adding request to the queue
         requestQueue.add(stringRequest);
     }
